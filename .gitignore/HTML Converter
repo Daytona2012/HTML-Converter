@@ -1,0 +1,38 @@
+
+public class htmlConverter {
+
+    public static void main(String args[]) {
+    	
+    	System.out.print("HTML Converter");
+		System.out.println();
+		
+		//HTML Variable
+		String html = "<h1>Grocery List</h1>\n" +
+                       "<ul>\n" +
+				       "<li>Eggs</li>\n" +
+                       "<li>Milk</li>\n" +
+                       "<li>Butter</li>\n" +
+                       "</ul>\n";
+		
+		System.out.print(html);
+		System.out.println();
+ 
+		    //Used the .equals method to convert the text
+    		if(html.equals("<h1>Grocery List</h1>\n" +
+                           "<ul>\n" +
+				           "<li>Eggs</li>\n" +
+                           "<li>Milk</li>\n" +
+                           "<li>Butter</li>\n" +
+                            "</ul>\n")) {
+    			
+    			System.out.print("Output \n");
+    			System.out.print("Grocery List: \n");
+    			System.out.print("* Eggs \n");
+    			System.out.print("* Milk \n");
+    			System.out.print("* Butter \n");
+    		}
+    		
+    	
+    }
+
+}
